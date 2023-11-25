@@ -1,0 +1,34 @@
+.supplier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+
+}
+.suppliersec{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.supplierpara{
+    font-size:8px;
+    color:black
+   }
+   
+   .suppliername{
+       font-size:9px;
+       color:black
+      }
+    @media screen and (min-width:768px){
+        .supplierpara{
+            font-size:14px;
+          
+           }
+           
+           .suppliername{
+               font-size:15px;
+               
+              }
+
+    }

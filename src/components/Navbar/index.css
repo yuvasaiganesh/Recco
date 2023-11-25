@@ -1,0 +1,58 @@
+.navbar{
+    background-color: grey;
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navsec1{
+    display: flex;
+    justify-content: space-between;
+    width:50vw;
+    align-items: center;
+}
+.navsec2{
+    display: flex;
+    justify-content: space-between;
+    width:20vw;
+    align-items: center;
+}
+
+.routeName{
+ font-size:12px;
+ color:white
+}
+
+.logoName{
+    font-size:20px;
+    color:white
+   }
+   
+   .cart{
+
+color:white
+   }
+   
+   @media screen and (min-width:768px){
+    
+    
+   
+    
+    .routeName{
+     font-size:15px;
+     
+    }
+    
+    .logoName{
+        font-size:25px;
+        
+       }
+       .cart{
+        height:50px;
+        width:60px;
+        color:white
+           }
+   }

@@ -1,0 +1,23 @@
+.Productheading{
+    font-size:10px;
+    font-family: "Roboto";
+}
+.Products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 0px;
+}
+@media screen and (min-width:1024px){
+    .Productheading{
+        font-size:14px;
+        
+    }
+   
+}
